@@ -2,44 +2,39 @@
 
 > Learning real-time systems one experiment at a time.
 
-DevOps War Room is a hands-on learning laboratory focused on understanding how modern applications deliver secure, real-time communication at scale.
+DevOps War Room is a hands-on engineering laboratory focused on understanding how modern applications deliver secure and reliable real-time communication.
 
-Rather than building another chat application, this project explores the engineering challenges behind production systems:
+Rather than building another chat application, this project explores the infrastructure, networking, security, and operational challenges behind production systems.
 
-* How do WebSockets work?
-* How do servers maintain persistent connections?
-* How do applications broadcast events in real time?
-* How do systems handle disconnects and reconnections?
-* How do engineers secure WebSocket traffic?
-* How do multiple servers synchronize messages?
-* How do teams monitor real-time infrastructure?
+The goal is not to build a messaging platform, but to understand the technologies and architectural patterns that make real-time systems possible.
 
 ---
 
-## 🎯 Objective
+# 🎯 Objective
 
 This repository exists to answer one question:
 
 > **How do modern systems provide secure, reliable, real-time communication?**
 
-Through practical experiments, the project explores:
+Through practical experiments and documentation, the project explores:
 
 * Real-time communication
-* Secure WebSockets (WSS)
+* WebSocket architectures
 * Authentication and authorization
-* Event-driven architectures
-* Redis Pub/Sub
+* Redis Pub/Sub concepts
 * Reverse proxies
-* Rate limiting
+* Rate-limiting strategies
 * Observability and logging
 * Containerized deployments
 * Production-inspired workflows
 
 ---
 
-## 🏗️ Planned Architecture
+# 🏗️ Architecture Under Exploration
 
-```text
+> The architecture below represents areas of exploration and may evolve as new experiments are introduced.
+
+```txt
 ┌─────────────────┐
 │     Browser     │
 └────────┬────────┘
@@ -73,9 +68,9 @@ Through practical experiments, the project explores:
 
 ---
 
-## 📚 Learning Roadmap
+# 📚 Learning Roadmap
 
-### 🌱 Phase 1 — Foundations
+## 🌱 Phase 1 — Foundations
 
 * [ ] Create a WebSocket server
 * [ ] Send and receive messages
@@ -85,7 +80,7 @@ Through practical experiments, the project explores:
 
 ---
 
-### 🔐 Phase 2 — Security
+## 🔐 Phase 2 — Security
 
 * [ ] Configure HTTPS and WSS
 * [ ] Implement JWT authentication
@@ -96,7 +91,7 @@ Through practical experiments, the project explores:
 
 ---
 
-### 🏗️ Phase 3 — Infrastructure
+## 🏗️ Phase 3 — Infrastructure
 
 * [ ] Dockerize the application
 * [ ] Configure Nginx as a reverse proxy
@@ -106,7 +101,7 @@ Through practical experiments, the project explores:
 
 ---
 
-### 📊 Phase 4 — Observability
+## 📊 Phase 4 — Observability
 
 * [ ] Add structured logging
 * [ ] Monitor metrics
@@ -116,7 +111,7 @@ Through practical experiments, the project explores:
 
 ---
 
-### 🚀 Phase 5 — Production Experiments
+## 🚀 Phase 5 — Production Experiments
 
 * [ ] Perform load testing
 * [ ] Explore deployment strategies
@@ -126,9 +121,9 @@ Through practical experiments, the project explores:
 
 ---
 
-## 🧠 Questions Explored
+# 🧠 Questions Explored
 
-This project aims to answer questions such as:
+DevOps War Room is built around questions such as:
 
 * How does the WebSocket handshake work?
 * Why do WebSockets maintain persistent connections?
@@ -140,76 +135,76 @@ This project aims to answer questions such as:
 
 ---
 
-## 🛠️ Technologies to Explore
+# 🛠️ Technologies Being Explored
 
-### Frontend
+## Frontend
 
 * Next.js
 * TypeScript
 * Tailwind CSS
 
-### Backend
+## Backend
 
 * Node.js
 * Express
 * WebSockets
 * Socket.IO
 
-### Infrastructure
+## Infrastructure
 
 * Docker
 * Docker Compose
 * Nginx
 * Redis
 
-### Security
+## Security
 
 * JWT
 * HTTPS / WSS
-* Rate Limiting
-* Input Validation
+* Rate limiting
+* Input validation
 
-### Observability
+## Observability
 
 * Logging
 * Metrics
 * Monitoring
-* Event Tracing
+* Event tracing
 
 ---
 
-## 💡 Philosophy
+# 💡 Learning Philosophy
 
 This repository is not intended to become the next messaging platform.
 
-Its purpose is to explore the infrastructure, networking, security, and architectural decisions behind modern real-time applications through practical experiments and documentation.
+It is an engineering sandbox designed to explore how networking, infrastructure, security, observability, and real-time communication come together in modern software systems.
 
-The focus is not on building a chat application.
+The focus is not simply to build a chat application.
 
-The focus is on understanding the systems that make real-time communication possible.
+The focus is to understand the systems that make real-time communication possible—one experiment at a time.
 
 ---
 
-## 🌉 Relationship to Other Projects
+# 🌉 Relationship to Other Projects
 
-```text
+```txt
 DevSecOps-Learning-Lab
           │
           ▼
-   DevOps War Room
+    DevOps War Room
           │
           ▼
-     Sentinel-Core
+      Sentinel-Core
 ```
 
-* **DevSecOps-Learning-Lab** teaches security and infrastructure fundamentals.
-* **DevOps War Room** explores real-time communication and secure networking.
-* **Sentinel-Core** expands those concepts into distributed systems and production workflows.
+* **DevSecOps-Learning-Lab** introduces security, infrastructure, and DevOps fundamentals.
+* **DevOps War Room** explores real-time communication, WebSocket architectures, and infrastructure concepts.
+* **Sentinel-Core** expands those ideas into event-driven systems, observability, and distributed architectures.
 
 ---
 
-## 📖 Disclaimer
+# 📖 Disclaimer
 
 This repository is a learning journal.
 
-Experiments, architecture decisions, and implementations may evolve as new concepts are explored.
+Experiments, documentation, and architectural decisions may evolve as new concepts are explored and implemented.
